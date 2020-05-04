@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+
+    html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Bangers';
+    overflow: hidden;
+    background-color: #f3f3f3;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+
+#tree {
+    width: 100%;
+    height: 100%;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+div.sticky2 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: 1;
+}
+
+
+div.sticky3 {
+    position: fixed;
+    left: 1;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    right: -74px;
+    text-align: center;
+    top: 200px;  /* pozycja elementu w pionie */
+    width: 300px;
+    padding-right: 50px;;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.fa-html5{
+    color: orange;
+}
+
+.fa-css3-alt{
+    color: DodgerBlue;
+}
+
+.fa-js-square{
+    color: yellow;
+}
+
+@media only screen and (max-width: 700px){
+
+div.sticky3{
+    display: none;
+}
+div.sticky2{
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 10px;
+}
+
+}
+
